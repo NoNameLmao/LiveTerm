@@ -12,7 +12,9 @@ export const help = async (args: string[]): Promise<string> => {
             c += Object.keys(bin).sort()[i - 1] + ' ';
         }
     }
-    return `feeling lost? here's some commands:
+    return `*если вы тут за архивом, пропишите 'archive'*
+
+feeling lost? here's some commands:
 
 =========================
 ${c}
@@ -50,6 +52,11 @@ thank you for your interest 🙏
 export const email = async (args: string[]): Promise<string> => {
     window.open(`mailto:${config.email}`);
     return `Opening mailto:${config.email}...`;
+};
+
+export const archive = async (args: string[]): Promise<string> => {
+    window.location.href = 'https://archive.emberglaze.ru/';
+    return `Opening archive... / Открываю архив...`;
 };
 
 export const github = async (args: string[]): Promise<string> => {

@@ -1,15 +1,17 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "emberglaze - LiveTerm",
+  "name": "emberglaze",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "NoNameLmao",
+    "discord": {
+      "invite": "https://discord.gg/v6WC78Fb",
+      "name": "emberglaze"
+    }
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
+  "email": "emberglaze@emberglaze.ru",
+  "ps1_hostname": "emberglaze.ru",
+  "ps1_username": "guest",
   "repo": "https://github.com/Cveinnt/LiveTerm",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
